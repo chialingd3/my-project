@@ -1,0 +1,67 @@
+
+@import './helpers/base.scss';
+$summer: #FF1D6C;
+
+$spring: #007350;
+$fire:#d16309;
+
+.cover{
+    background-position: center center ;
+    background-size: cover;
+    object-fit: center center;
+    object-position: cover;
+}
+.icon-circle{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;    
+}
+
+.icon-text{
+    font-size: 6px;
+}
+.summer{
+    background-color:$summer;
+}
+.spring{
+    background-color: $spring;
+}
+.fire{
+    background-color: $fire;
+}
+.bannre-title{
+    margin-bottom: 50%;
+    font-weight: border;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 60px;
+}
+.bannre-text{
+    font-size: 20px;
+}
+.text-summer{
+    color: $summer;
+}
+.text-square{
+    border: 7 solid #FF1D6C;
+    width: 21px;
+    height: 21px;
+}
+.text-m{
+    font-size: 42px;
+}
+.search{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+// Scenespots   
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1630244024081-dc4039254a46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+  height: 280px;
+  background-position: center center;
+  background-size: cover;
+}
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
